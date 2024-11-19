@@ -1,5 +1,5 @@
 class Node:
-    def _init_(self, question, yes_node=None, no_node=None, hasil=None):
+    def __init__(self, question, yes_node=None, no_node=None, hasil=None):
         self.question = question
         self.yes_node = yes_node
         self.no_node = no_node
@@ -201,6 +201,6 @@ Casing: NZXT H510 Elite, Lian Li Lancool II Mesh, atau Corsair 4000D Airflow."""
 
 
 # Main program
-if __name__ == "_main_":
+if __name__ == "__main__":
     decision_tree = Node.build_tree()
     Node.inferensia(decision_tree)
