@@ -9,7 +9,6 @@ class Node:
     def build_tree():
 
         # Hasil akhir spesifikasi untuk setiap simpul akhir
-        miskin = Node(None, hasil="Kalo miskin jangan rakit PC, anjing")
 
         server1 = Node(None, hasil="""   \nRekomendasi PC Server Entry-Level (<10 juta):
 Processor: Intel Xeon E-2224G
@@ -202,6 +201,6 @@ Casing: NZXT H510 Elite, Lian Li Lancool II Mesh, atau Corsair 4000D Airflow."""
 
 
 # Main program
-if _name_ == "_main_":
+if __name__ == "_main_":
     decision_tree = Node.build_tree()
     Node.inferensia(decision_tree)
