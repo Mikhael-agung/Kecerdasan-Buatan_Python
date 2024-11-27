@@ -1,4 +1,3 @@
-Terima kasih atas gambar tambahan. Berikut adalah README yang lebih lengkap dan sesuai untuk proyek Anda:
 
 ---
 
