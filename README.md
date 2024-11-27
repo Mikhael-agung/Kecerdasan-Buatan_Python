@@ -59,10 +59,6 @@ Repository ini berisi proyek kelompok yang berfokus pada implementasi **Kecerdas
 4. Push branch Anda (`git push origin feature-name`).
 5. Kirimkan *pull request*.
 
-## 📜 Lisensi
-
-(Tambahkan jenis lisensi jika ada, atau tuliskan "Belum ada lisensi untuk proyek ini.")
-
 ## 📧 Kontak
 
 Jika ada pertanyaan lebih lanjut, hubungi anggota kelompok melalui akun GitHub masing-masing.
